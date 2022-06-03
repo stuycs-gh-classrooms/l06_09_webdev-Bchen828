@@ -1,13 +1,19 @@
-val x = int(random(150,250));
-val y = int(random(150,250));
-val xVelocity = int(random(-4,4));
-val yVelocity = int(random(-4,4));
-val xlen = 60;
-val ylen = 30;
+val x;
+val y;
+val xVelocity ;
+val yVelocity;
+val xlen;
+val ylen;
 
 function setup() {
   createCanvas(600,400);
   frameRate(60);
+  x = int(random(150,250));
+  y = int(random(150,250));
+  xVelocity = int(random(-4,4));
+  yVelocity = int(random(-4,4));
+  xlen = 60;
+  ylen = 30;
 }
 
 function draw() {
