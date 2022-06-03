@@ -41,13 +41,13 @@ function draw() {
   // put drawing code here
 }
 
-function swap(var arr, var i0, var i1) {
+function swap(arr, i0, i1) {
   var t = arr[i0];
   arr[i0] = arr[i1];
   arr[i1] = t;
 }//swap
 
-function randomArray(var num) {
+function randomArray(num) {
   var values = new Array(num);
 
   for (var i=0; i<values.length; i++) {
@@ -56,7 +56,7 @@ function randomArray(var num) {
   return values;
 }//randomArray
 
-function displayArray(var[] arr, int p, int tp, int sp) {
+function displayArray(arr, p, tp, sp) {
   var barWidth = width / arr.length;
   var x = 0;
   var y = 0;
