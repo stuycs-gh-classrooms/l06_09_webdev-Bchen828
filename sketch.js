@@ -1,4 +1,4 @@
-var arr[];
+var arr = [];
 var pos; //the current spot we want to find
 var smallPos; //the position of the smallest element we've found so far
 var testPos; //the current position we are testing
@@ -41,14 +41,14 @@ function draw() {
   // put drawing code here
 }
 
-function swap(int[] arr, var i0, var i1) {
+function swap(var arr, var i0, var i1) {
   var t = arr[i0];
   arr[i0] = arr[i1];
   arr[i1] = t;
 }//swap
 
-function randomArray(int num) {
-  var[] values = new int[num];
+function randomArray(var num) {
+  var values = new Array(num);
 
   for (var i=0; i<values.length; i++) {
     values[i] = int(random(100, 400));
