@@ -1,7 +1,7 @@
-arr[];
-pos; //the current spot we want to find
-smallPos; //the position of the smallest element we've found so far
-testPos; //the current position we are testing
+var arr[];
+var pos; //the current spot we want to find
+var smallPos; //the position of the smallest element we've found so far
+var testPos; //the current position we are testing
 
 
 function setup() {
