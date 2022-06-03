@@ -1,9 +1,9 @@
-val x;
-val y;
-val xVelocity ;
-val yVelocity;
-val xlen;
-val ylen;
+var x;
+var y;
+var xVelocity ;
+var yVelocity;
+var xlen;
+var ylen;
 
 function setup() {
   createCanvas(600,400);
@@ -23,7 +23,7 @@ function draw() {
   fill(255,255,0);
   rect(x,y,xlen,ylen);
   if ((x+xlen)>=width) {
-    val xk = int(random(-4,4));
+    var xk = int(random(-4,4));
     xVelocity = xk * -1;
   } 
   if (x<=0) {
@@ -33,7 +33,7 @@ function draw() {
     yVelocity *= -1;
   }
   if ((y+ylen)>=height) {
-    int yk = int(random(-4,4));
+    var yk = int(random(-4,4));
     yVelocity = yk * -1;
 
   }
